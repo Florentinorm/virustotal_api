@@ -14,7 +14,7 @@ API construida con FastAPI que permite subir archivos, escanearlos con VirusTota
 ### Instrucciones
 
 # Crear el archivo .env
-echo "VIRUSTOTAL_API_KEY=tu_api_key" > .env
+echo "VIRUSTOTAL_API_KEY=API" > .env
 
 # Construir la imagen
 docker build -t virustotal-api .
