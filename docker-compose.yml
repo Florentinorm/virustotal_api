@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  virustotal-api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - VIRUSTOTAL_API_KEY=${VIRUSTOTAL_API_KEY}
+    env_file:
+      - .env
